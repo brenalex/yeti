@@ -19,6 +19,18 @@ A cooler way for residents to suggest changes to austin.gov
 ## Testing the API
 
 ### via curl
+```
+make migrations? \
+python manage.py makemigrations
+```
+
+
+```
+migrate? \
+python manage.py migrate
+
+```
+
 
 ```
 curl \
